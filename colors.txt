@@ -1,0 +1,5 @@
+#EAEAEA //footer background
+#F5F5F5  //body background
+#D83F28 //red
+#222222 //black
+#E9E9E9 //hr border color

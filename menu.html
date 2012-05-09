@@ -1,0 +1,455 @@
+﻿<html lang="en">
+<head>
+
+<!-- Page designed and coded by James Johnson of Excellent InGenuity LLC, 2012 under contract for ERF Marketing -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Caesar's Mediterranean Cuisine - Menu</title>
+
+
+<link rel="stylesheet" media="all" href="css/bootstrap.css">
+<link rel="stylesheet" media="all" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" media="screen" href="css/phone.css">
+<link rel="stylesheet" media="screen and (min-width: 330px) and (max-width: 590px)" href="css/phone-hz.css"> 
+<link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 800px)" href="css/tablet.css">
+<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 1280px)" href="css/desktop.css">
+<link rel="stylesheet" media="screen and (min-width: 1280px)" href="css/widescreen.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--javascript includes -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="assets/js/bootstrap-collapse.js"></script>
+  <script src="assets/js/bootstrap-tab.js"></script>
+  <script src="js/bootstrap-button.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+
+
+<!-- insert google analytics code here-->
+
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="row-fluid" id="header">
+        	<div class="span5" id="logo">
+    			<a href="index.html" class="logo"><img class="logo" src="http://placehold.it/275x100"></a>
+                <p class="tagline">Fine Mediterranean Cuisine</p>
+            </div>
+            <div class="span7"><!-- nav block -->
+            	<span class="visible-phone">
+                	<ul class="nav nav-pills nav-stacked" id="nav_menu">
+                    	<li id="nav_item">
+                        	<a id="menu_link"href="index.html">Home</a>
+                        </li>
+                        <li class="active" id="active_nav">
+                        	<a id="menu_link_active" href="menu.html">Menu</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="find.html">Find Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="about.php">About Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="reserve.php">Reservations</a>
+                        </li>
+                    </ul>
+                </span>
+                <span class="visible-tablet">
+                	<ul class="nav nav-pills" id="nav_menu">
+                    	<li id="nav_item">
+                        	<a id="menu_link"href="index.html">Home</a>
+                        </li>
+                        <li class="active" id="active_nav">
+                        	<a id="menu_link_active" href="menu.html">Menu</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="find.html">Find Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="about.php">About Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="reserve.php">Reservations</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://facebook.com"><img src="img/facebook.png" alt="facebook" /></a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://twitter.com"><img src="img/twitter.png" alt="twitter" /></a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://yelp.com"><img src="img/yelp.png" alt="yelp" /></a>
+                        </li>
+                    </ul>
+                </span>	
+              	<span class="visible-desktop">
+                	<ul class="nav nav-pills" id="nav_menu">
+                    	<li id="nav_item">
+                        	<a id="menu_link"href="index.html">Home</a>
+                        </li>
+                        <li class="active" id="active_nav">
+                        	<a id="menu_link_active" href="menu.html">Menu</a>
+                        </li>                        
+                        <li id="nav_item">
+                        	<a id="menu_link" href="find.html">Find Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="about.php">About Us</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="reserve.php">Reservations</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://facebook.com"><img src="img/facebook.png" alt="facebook" /></a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://twitter.com"><img src="img/twitter.png" alt="twitter" /></a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="http://yelp.com"><img src="img/yelp.png" alt="yelp" /></a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+    	</header>
+    </div>
+    <div class="container-fluid" id="main_body">
+    	<div class="row-fluid">
+            <div class="span8" id="food_content">
+                <div class="tabbable" id="main_content">
+                	<ul class="nav nav-tabs">
+                    	<li class="active" id="food_tabs">
+                        	<a id="food_tabs" href="#appetizers" data-toggle="tab">Appetizers</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#soup" data-toggle="tab">Soup</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#salad" data-toggle="tab">Salad</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#pasta" data-toggle="tab">Pasta</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#sandwiches" data-toggle="tab">House Specials</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#beef" data-toggle="tab">Beef</a>
+                        </li>                        
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#chicken" data-toggle="tab">Chicken</a>
+                        </li>                        
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#seafood" data-toggle="tab">Seafood</a>
+                        </li>      
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#desserts" data-toggle="tab">Desserts</a>
+                        </li>
+                        <li id="food_tabs">
+                        	<a id="food_tabs" href="#kids" data-toggle="tab">Kid's Menu</a>
+                        </li>
+                        
+                	</ul>
+                    <div class="tab-content" id="menu_box">
+                    	<div class="tab-pane active" id="appetizers">
+                        	
+                            <p id="food_menu">
+                            	<h4>Caesar's Signature Hummus $5.99</h4>
+                                <em>traditional Middle Eastern chic pea dip topped with black olives, tomatoes, feta cheese, pepperoncinne peppers & served with grilled pita wedges</em><br />
+                                with tender souvlaki beef bits or gyro strips $3.99ea 
+                            </p>
+                        	
+                            <p id="food_menu">
+                            	<h4>Spanakopita $7.29</h4>
+                                <em>Flaky Phyllo dough filled  with layers of spinach and feta cheese</em><br />
+                            </p>
+                        	
+                            <p id="food_menu">
+                            	<h4>Falafels $4.99</h4>
+                                <em>Homemade falafels made of ground Chic Peas and Sesame, served w Tahini sauce</em><br />
+                             
+                            </p>
+                            
+                            <p id="food_menu">
+                            	<h4>Crispy Chicken Tenders $6.49</h4>
+                                <em>Served with honey mustard</em><br />
+                                
+                            </p>
+                           
+                            <p id="food_menu">
+                            	<h4>Wings</h4>
+                                Hot, Mild, Lemon pepper, Teriyaki<br />
+                                &frac12; dozen $4.99<br />
+                                1 dozen $8.99<br />
+                            </p>
+                            
+                            <p id="food_menu">
+                            	<h4>Cheese Nachos $5.99</h4><br />
+                                <h4>Nacho Supreme$9.99</h4>
+                                <em>with cheddar jack, tomatoes, black olives Jalapeno’s & sour cream topped with your choice of beef, bbq chicken or buffalo chicken</em><br />
+                            </p>
+                       </div>
+                       <div class="tab-pane" id="soup">
+                       	<h4>Greek style Lemon Chicken & Rice</h4>
+                        <p id="food_menu">
+                            Cup   $2.99<br />
+                            Bowl  $4.99<br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="salad">
+                        <p id="food_menu">
+                        <h4>Chef's Salad $8.29</h4>
+                        <em>Turkey, Ham, Mozzarella Cheese on Mixed Greens with cucumber, red onion & tomato</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chef's Salad $8.29</h4>
+                        <em>Turkey, Ham, Mozzarella Cheese on Mixed Greens with cucumber, red onion & tomato</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Greek $5.79</h4>
+                        <em>Mixed Greens tossed w/ kalamata olives, pepperoncini peppers & feta cheese, served with tomatoes, cucumbers & red onions</em><br />
+                        Add Grilled Chicken  $3.99<br />
+                        Add Sliced Chicken   $3.99<br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>&copy;Crispy Chicken $7.99</h4>
+                        <em>Hand battered Crispy Chicken tenders, served over mixed greens with tomatoes, cucumbers, red onion &  our signature&copy; honey vinaigrette dressing and dried cranberries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Grilled Salmon $11.39</h4>
+                        <em>Mixed Greens with tomatoes, red onion & cucumber topped with Grilled Salmon served with &copy;honey vinaigrette dressing and cranberries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Caesar’s Chicken Salad $8.29</h4>
+                        <em>Mixed greens with tomatoes, red onion & cucumber topped with homemade chicken salad served with &copy;honey vinaigrette dressing and dried cranberries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Grilled Chicken Caesar $8.79</h4>
+                        <em>Crisp romaine lettuce tossed with creamy Caesar dressing, croutons, and parmesan cheese</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Ala carte Salads with Entrée</h4>
+                        Mixed Green  $2.75<br />
+                        Greek        $4.95<br />
+                        Caesar       $3.95<br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="house">
+                        <p id="food_menu">
+                        <h4>Mediterranean Trio $12.99</h4>
+                        <em>Gyro , Souvlaki Beef, and seasoned Chicken served with hummus, grilled pita &  tzatziki</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Gyro Platter $10.99</h4>
+                        <em>Gyro with Hummus, grilled Pita  & Tzatziki</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Falafel Platter $9.99</h4>
+                        <em>Falafels served with Hummus grilled pita & Tzatziki</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Vegetarian Platter $9.99</h4>
+                        <em>Grilled veggies (tomato,squash,zucchini, mushrooms, spinach & kalamata olives) served with hummus, grilled pita & Tzatziki</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="pasta">
+                      All Pasta dishes served with garlic bread
+                        <p id="food_menu">
+                        <h4>Baked Ziti $7.49</h4>
+                        <em>Ziti pasta tossed with basil marinara, topped with mozzarella and baked</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Lasagna $8.99</h4>
+                        <em>Homemade Lasagna layered with ricotta, mozzarella & Seasoned Beef with  Basil Marinara topped with mozzarella and baked</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Pasta Alfredo Florentine $7.99</h4>
+                        <em>Linguine tossed with a creamy Alfredo sauce & spinach topped with parmesan cheese</em><br />
+                        Add Chicken  $3.99<br />
+                        Add Shrimp   $4.99<br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Parmesan $11.99</h4>
+                        <em>Lightly battered and pan seared served over Linguini tossed with basil marinara topped with melted mozzarella </em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Mediterranean Chicken $14.99</h4>
+                        <em>Sautéed’ with garlic lemon and olive oil served over linguini topped with olives, feta cheese and tomatoes</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="sandwiches">
+                      All sandwiches served with frenchfries
+                        <p id="food_menu">
+                        <h4>&copy;Caesar’s Signature Burger $8.49</h4>
+                        <em>8oz certified Black Angus grilled to perfection topped with feta cheese & black olives, served with lettuce, tomato and tzatziki sauce on a Kaiser Roll</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Fish Sandwich $6.99</h4>
+                        <em>Delicate Cod hand battered and fried served with lettuce, tomato & tartar sauce on a Kaiser Roll</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Gyro Pita $8.29</h4>
+                        <em>Authentic blend of lamb and beef sliced, grilled & wrapped in a pita with lettuce, tomato with Tzatziki sauce</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Souvlaki Beef Pita $8.49</h4>
+                        <em>Seasoned tender Beef grilled & wrapped in a pita with lettuce, tomato & Tzatziki Sauce</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Pita $7.99</h4>
+                        <em>Grilled Chicken Breast sliced thin & wrapped in a pita with lettuce, tomato & Tzatziki Sauce</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Falafel Pita $6.99</h4>
+                        <em>Ground Chic peas with sesame flash fried and wrapped in a pita with lettuce tomato & Tzatziki sauce</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Vegetarian Quesadilla $7.99</h4>
+                        <em>Grilled squash, zucchini squash, spinach, mushrooms and olives & Monterey jack cheese wrapped in a flour tortilla served with salsa & sour cream</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Quesadilla $8.29</h4>
+                       <em>Seasoned Chicken breast grilled served with Monterey jack cheese in a flour tortilla, with salsa & sour cream</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Sicilian Sub $7.59</h4>
+                        <em>Deli sliced Turkey; Italian Ham & Pepperoni with Provolone on a Toasted hoagie With lettuce, tomato, red onions drizzled with Greek vinaigrette dressing</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Philly Steak & Cheese $8.59</h4>
+                       <em>Thin sliced grilled Steak sautéed with green peppers, mushrooms & onions served on a toasted hoagie with melted Mozzarella cheese</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Philly Chicken $8.29</h4>
+                        <em>Thin sliced grilled chicken breast sautéed with green peppers, mushrooms & onions served on a toasted hoagie with mozzarella cheese</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>&copy;Chicken Salad Sub $7.99</h4>
+                        <em>Caesar’s own homemade chicken salad drizzled with Greek vinaigrette topped with Mozzarella Cheese, lettuce & tomato on a toasted hoagie</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="beef">
+                      
+                        <p id="food_menu">
+                        <h4>Greek Rib-eye $19.99</h4>
+                        <em>12 oz aged Rib-eye marinated in “Greek” spices with olive oil, lemon & garlic Served with “Greek” roasted potatoes & Vegetables</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Steak Marsala $13.99</h4>
+                        <em>Sliced grilled Sirloin  with mushrooms and Marsala wine served with Rice Pilaf and vegetables</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Kofta $10.49</h4>
+                        <em>Seasoned ground beef kabob with garlic, chopped parsley and spices grilled served with roasted “Greek” potatoes & grilled tomatoes & tahini</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="chicken">
+                      
+                        <p id="food_menu">
+                        <h4>Chicken Marsala $11.99</h4>
+                        <em>Grilled Chicken Breast smothered with mushrooms and marsala wine sauce served with rice pilaf and vegetables</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Athenian Chicken $12.99</h4>
+                        <em>Seasoned grilled chicken breast Sautéed with mushrooms, onions & rice served with vegetables</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Supreme $12.99</h4>
+                        <em>Breast of Chicken stuffed with spinach & feta served over rice pilaf topped with parmesan cream sauce</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Stir Fry $9.99</h4>
+                        <em>Tender Chicken sautéed with fresh vegetables & teriyaki served over rice</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="seafood">
+                     
+                        <p id="food_menu">
+                        <h4>Grilled Salmon $15.99</h4>
+                        <em>Grilled Salmon topped with your choice of lemon butter or teriyaki, served with rice pilaf & Vegetable</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Fried Shrimp $12.99</h4>
+                        <em>Lightly breaded & fried served with French fries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Fried Fish $11.99</h4>
+                        <em>Delicate cod lightly battered & fried, served with French fries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Seafood Platter $14.99</h4>
+                        <em>Fish, shrimp & Scallops, lightly battered & fried, and served with French fries</em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Shrimp & Scallop Scampi $16.99</h4>
+                        <em>Sautéed with lemon, garlic & Butter served with rice Pilaf</em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="kids">
+                      10 & under<br />
+                      All items $3.99<br />
+                        <p id="food_menu">
+                        <h4>Baked Ziti</h4>
+                        <em></em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Mini Lasagna</h4>
+                        <em></em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Chicken Strips & French Fries</h4>
+                        <em></em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Mini Cheese Pizza</h4>
+                        <em></em><br />
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="desserts">
+                    
+                        <p id="food_menu">
+                        <h4>Baklava $2.99</h4>
+                        <em></em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Key Lime Pie $4.95</h4>
+                        <em></em><br />
+                        </p>
+                        <p id="food_menu">
+                        <h4>Cheese Cake $4.95</h4>
+                        <em></em><br />
+                        </p>
+                      </div>
+                    </div>
+                </div>    
+            </div>
+       </div>
+	</div><br />
+    <div class="container-fluid" id="footer_container">
+		<footer class="row-fluid" id="footer">
+        	<div class="span10 offset1" id="footer_blocks">
+            	<div class="row-fluid">
+                	<address class="span4" id="address">
+                    	<em>Caesar's</em><br />
+                        225 South Pleasantburg Drive<br />
+                        Greenville, SC 29607<br />
+                    </address>
+                    <div class="span4 offset2" id="contact">
+                    	<em>Contact Caesar's</em><br />
+                        <a class="btn btn-medium" id="email_link" href="#">Email</a>
+                    </div>
+                </div>
+    		</div>
+    	</footer>
+        <div class="row-fluid" id="bottom_bar">
+        	<p class="span10 offset1" id="copyright">
+            	&copy;&nbsp;Caesar's Resaurant, All Rights Reserved. - <a href="http;//erfmarketing.com" id="erf_link">ERF Marketing</a>
+            </p>
+        </div>
+	</div>
+</body>
+</html>
