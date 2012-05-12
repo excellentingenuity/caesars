@@ -22,7 +22,7 @@
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
-		if (mail("james.johnson@excellentingenuity.com", "Contact Form Email", $message, $headers)==1){
+		if (mail("info@caesarsrestaurant.net", "Contact Form Email", $message, $headers)==1){
 			$show = true;
 			$modal = "<script>$('#confirmation').modal('show')</script>";
 			//"Mail has been sent";
@@ -40,6 +40,7 @@
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <title>Caesar's Mediterranean Cuisine - About Us</title>
 
+<link rel="shortcut icon" href="img/fav_icon.png" />
 
 <link rel="stylesheet" media="all" href="css/bootstrap.css">
 <link rel="stylesheet" media="all" href="css/bootstrap-responsive.css">
@@ -70,7 +71,7 @@
 	<div class="container-fluid">
 		<header class="row-fluid" id="header">
         	<div class="span5" id="logo">
-    			<a href="index.html" class="logo"><img class="logo" src="http://placehold.it/275x100"></a>
+    			<a href="index.html" class="logo"><img class="logo" src="img/logo.png"></a>
                 <p class="tagline">Fine Mediterranean Cuisine</p>
             </div>
             <div class="span7"><!-- nav block -->
@@ -94,7 +95,18 @@
                     </ul>
                 </span>
                 <span class="visible-tablet">
-                	<ul class="nav nav-pills" id="nav_menu">
+                	<ul class="nav nav-pills" id="nav_social">                        
+                    	<li id="nav_item" class="social">
+                        	<a id="menu_link" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.caesarsrestaurant.net%2F&t=Caesar%27s+Restaurant+-+Great+Mediterranean+Food+and+Pizza+Delivery%2C+Greenville+SC"><img src="img/facebook.png" alt="facebook" /></a>
+                        </li>
+                        <li id="nav_item" class="social">
+                        	<a id="menu_link" href="http://twitter.com/share?text=Caesar%27s+Restaurant+-+Great+Mediterranean+Food+and+Pizza+Delivery%2C+Greenville+SC&url=http%3A%2F%2Fwww.caesarsrestaurant.net%2F"><img src="img/twitter.png" alt="twitter" /></a>
+                        </li>
+                        <li id="nav_item" class="social">
+                        	<a id="menu_link" href="http://www.yelp.com/biz/caesars-greenville"><img src="img/yelp.png" alt="yelp" /></a>
+                        </li>
+                    </ul>
+                    <ul class="nav nav-pills" id="nav_menu">  
                     	<li id="nav_item">
                         	<a id="menu_link"href="index.html">Home</a>
                         </li>
@@ -109,15 +121,6 @@
                         </li>
                         <li id="nav_item">
                         	<a id="menu_link" href="reserve.php">Reservations</a>
-                        </li>
-                        <li id="nav_item">
-                        	<a id="menu_link" href="http://facebook.com"><img src="img/facebook.png" alt="facebook" /></a>
-                        </li>
-                        <li id="nav_item">
-                        	<a id="menu_link" href="http://twitter.com"><img src="img/twitter.png" alt="twitter" /></a>
-                        </li>
-                        <li id="nav_item">
-                        	<a id="menu_link" href="http://yelp.com"><img src="img/yelp.png" alt="yelp" /></a>
                         </li>
                     </ul>
                 </span>	
@@ -139,13 +142,13 @@
                         	<a id="menu_link" href="reserve.php">Reservations</a>
                         </li>
                         <li id="nav_item">
-                        	<a id="menu_link" href="http://facebook.com"><img src="img/facebook.png" alt="facebook" /></a>
+                        	<a id="menu_link" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.caesarsrestaurant.net%2F&t=Caesar%27s+Restaurant+-+Great+Mediterranean+Food+and+Pizza+Delivery%2C+Greenville+SC"><img src="img/facebook.png" alt="facebook" /></a>
                         </li>
                         <li id="nav_item">
-                        	<a id="menu_link" href="http://twitter.com"><img src="img/twitter.png" alt="twitter" /></a>
+                        	<a id="menu_link" href="http://twitter.com/share?text=Caesar%27s+Restaurant+-+Great+Mediterranean+Food+and+Pizza+Delivery%2C+Greenville+SC&url=http%3A%2F%2Fwww.caesarsrestaurant.net%2F"><img src="img/twitter.png" alt="twitter" /></a>
                         </li>
                         <li id="nav_item">
-                        	<a id="menu_link" href="http://yelp.com"><img src="img/yelp.png" alt="yelp" /></a>
+                        	<a id="menu_link" href="http://www.yelp.com/biz/caesars-greenville"><img src="img/yelp.png" alt="yelp" /></a>
                         </li>
                     </ul>
                 </span>
@@ -239,8 +242,7 @@
        <div class="row-fluid">
        		<div class="span10 offset1">
             	<p class="sub_tag">
-                	We are <b>Caesar's</b> Mediterranean, in Greenville.<br />
-                    We know good food, and we like to share.
+
                 </p>
             </div>
           </div>
@@ -250,16 +252,22 @@
 		<footer class="row-fluid" id="footer">
         	<div class="span10 offset1" id="footer_blocks">
             	<div class="row-fluid">
-                	<address class="span4" id="address">
-                    	<em>Caesar's</em><br />
-                        225 South Pleasantburg Drive<br />
-                        Greenville, SC 29607<br />
-                    </address>
-                    <div class="span4 offset2" id="contact">
-                    	<em>Contact Caesar's</em><br />
-                        <a class="btn btn-medium" id="email_link" href="#">Email</a>
-                    </div>
-                </div>
+                  <address class="span3" id="address">
+                      <em>Caesar's</em><br />
+                      225 South Pleasantburg Drive<br />
+                      Greenville, SC 29607<br />
+                  </address>
+                 <div class="span4" id="hours">
+                 	<b>Hours of Operation</b><br />
+                    Monday - Thursday&nbsp;&nbsp;11:00am - 9:00pm<br />
+                    Friday&nbsp;&nbsp; - Saturday&nbsp;&nbsp;&nbsp;11:00am - 10:00pm<br />
+                    Sunday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00am - 3:00pm<br /><br /><br />
+                 </div>
+                 <div class="span3" id="contact">
+                   	<em>Contact Caesar's</em><br />
+                       <a class="btn btn-medium" id="email_link" href="mailto:info@caesarsrestaurant.net">Email</a>
+                 </div>
+               </div>
     		</div>
     	</footer>
         <div class="row-fluid" id="bottom_bar">

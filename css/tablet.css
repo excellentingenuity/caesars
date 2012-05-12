@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #nav_menu {
-	margin-top:100px;
+	margin-top:1.5em;
 }
 .tagline {
 	font-size:1.3em;
@@ -55,4 +55,23 @@ a#menu_link{
 #reservation_form {
 	margin-top:1em;
 	margin-left:35%;
+}
+li.social {
+	margin-left:.3em;
+	margin-right:.3em;
+}
+#nav_social {
+	margin-top:1.5em;
+	margin-left:40%;
+}
+#hours {
+	margin-top:1.7em;
+}
+.address {
+	padding:0px;
+}
+.phone_num {
+	margin-left:0px;
+	margin-top:1.5em;
+	margin-bottom:-2em;
 }

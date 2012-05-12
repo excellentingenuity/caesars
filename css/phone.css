@@ -146,3 +146,13 @@ li.active>#food_tabs {
 #form_button_group {
 	background-color:none;
 }
+#hours {
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-left:2em;
+	text-align:left;
+}
+.phone_num {
+	font-size:2em;
+	color:#D83F28;	
+}
