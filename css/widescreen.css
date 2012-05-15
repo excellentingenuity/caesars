@@ -57,8 +57,12 @@ p#copyright{
 	margin-left:1.9em;
 		
 }
-#food_content{
+#menu_box{
 	margin-left:15%;
+	width:75%;
+}
+#cater_box{
+	margin-left:29%;
 }
 #map {
 	margin-left:25%;
@@ -80,7 +84,7 @@ p#copyright{
 	
 }
 .phone_num {
-	margin-left:12em;
+	margin-left:16em;
 	margin-top:1.5em;
 	margin-bottom:-2.5em;
 	

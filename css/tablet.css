@@ -39,7 +39,10 @@ a#menu_link{
 #footer_blocks {
 	margin-left:5em;
 }
-#food_content{
+#menu_box{
+	/*margin-left:3em;*/
+}
+#cater_box{
 	margin-left:3em;
 }
 #map {

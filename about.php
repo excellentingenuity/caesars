@@ -84,6 +84,9 @@
                         	<a id="menu_link" href="menu.html">Menu</a>
                         </li>
                         <li id="nav_item">
+                        	<a id="menu_link" href="cater.html">Catering</a>
+                        </li>
+                        <li id="nav_item">
                         	<a id="menu_link" href="find.html">Find Us</a>
                         </li>
                         <li class="active" id="active_nav">
@@ -95,6 +98,9 @@
                     </ul>
                 </span>
                 <span class="visible-tablet">
+                	<p class="phone_num">
+                    <b>864.233.4094</b>
+                    </p>
                 	<ul class="nav nav-pills" id="nav_social">                        
                     	<li id="nav_item" class="social">
                         	<a id="menu_link" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.caesarsrestaurant.net%2F&t=Caesar%27s+Restaurant+-+Great+Mediterranean+Food+and+Pizza+Delivery%2C+Greenville+SC"><img src="img/facebook.png" alt="facebook" /></a>
@@ -114,6 +120,9 @@
                         	<a id="menu_link" href="menu.html">Menu</a>
                         </li>
                         <li id="nav_item">
+                        	<a id="menu_link" href="cater.html">Catering</a>
+                        </li>
+                        <li id="nav_item">
                         	<a id="menu_link" href="find.html">Find Us</a>
                         </li>
                         <li class="active" id="active_nav">
@@ -125,12 +134,18 @@
                     </ul>
                 </span>	
               	<span class="visible-desktop">
+                	<p class="phone_num">
+                    <b>864.233.4094</b>
+                    </p>
                 	<ul class="nav nav-pills" id="nav_menu">
                     	<li id="nav_item">
                         	<a id="menu_link"href="index.html">Home</a>
                         </li>
                         <li id="nav_item">
                         	<a id="menu_link" href="menu.html">Menu</a>
+                        </li>
+                        <li id="nav_item">
+                        	<a id="menu_link" href="cater.html">Catering</a>
                         </li>
                         <li id="nav_item">
                         	<a id="menu_link" href="find.html">Find Us</a>
@@ -256,6 +271,7 @@
                       <em>Caesar's</em><br />
                       225 South Pleasantburg Drive<br />
                       Greenville, SC 29607<br />
+		  864.233.4094<br />
                   </address>
                  <div class="span4" id="hours">
                  	<b>Hours of Operation</b><br />
